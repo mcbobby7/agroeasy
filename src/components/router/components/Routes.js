@@ -7,9 +7,10 @@ import home from '../../home';
 import NoMatch from './NoMatch';
 import productList  from '../../productList';
 import userProfile from '../../userProfile';
+import learnMore from '../../learnMore';
 import { PATHS } from '../constants';
 
-const { ABOUT, HOME, MARKET, PROFILE } = PATHS;
+const { ABOUT, HOME, MARKET, PROFILE, MORE } = PATHS;
 const { App } = app.components;
 
 const Routes = () => (
@@ -20,6 +21,7 @@ const Routes = () => (
                 <Route path={MARKET} exact strict component={productList.components.ProductList} />
                 <Route path={PROFILE} component={userProfile.components.UserProfile} />
                 <Route path={ABOUT} exact strict component={aboutUs.components.AboutUs} />
+                <Route path={MORE} exact strict component={learnMore.components.LearnMore} />
                 <Route component={NoMatch} />
             </Switch>
         </App>

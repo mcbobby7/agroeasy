@@ -134,6 +134,8 @@ export const BANNER_CLASSNAMES = {
 
 export const VALID_SIGNOUT = "You have been signed out";
 
+export const LINK = "/learn-more";
+
 export const SIGNIN_SUCCESS = "Hello";
 
 export const EXPIRATION = 86400000;
