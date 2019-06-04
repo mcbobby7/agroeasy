@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Icon } from 'antd';
-
 import { LEARN_MORE_CLASSNAMES, LERAN_MORE_DATA } from '../constants';
 
 const { HEADER, IMAGE, TEXT, BODY, ICON } = LEARN_MORE_CLASSNAMES;

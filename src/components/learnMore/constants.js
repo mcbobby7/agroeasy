@@ -1,6 +1,5 @@
 /* eslint-disable sort-keys */
 /* eslint-disable max-len */
-// import IMAGE1 from './images/raspberries-3757817.jpg';
 
 /** @constant */
 export const LEARN_MORE_CLASSNAMES = {

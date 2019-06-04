@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
 import './styles.css';
 import { Button, Icon } from 'antd';
+import { Link } from 'react-router-dom';
 
 import { BANNER_CLASSNAMES, BANNER_DATA, BANNER_HEADING, LEARN_MORE, LINK } from '../constants';
 
