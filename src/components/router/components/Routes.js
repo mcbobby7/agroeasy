@@ -21,8 +21,9 @@ const Routes = () => (
                 <Route path={MARKET} exact strict component={productList.components.ProductList} />
                 <Route path={PROFILE} component={userProfile.components.UserProfile} />
                 <Route path={ABOUT} exact strict component={aboutUs.components.AboutUs} />
-                <Route path={MORE} exact strict component={learnMore.components.LearnMore} />
                 <Route component={NoMatch} />
+                <Route path={MORE} exact strict component={learnMore.components.LearnMore} />
+
             </Switch>
         </App>
     </BrowserRouter>

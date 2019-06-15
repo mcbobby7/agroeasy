@@ -4,7 +4,7 @@ import { LEARN_MORE_CLASSNAMES, LERAN_MORE_DATA } from '../constants';
 
 const { HEADER, IMAGE, TEXT, BODY, ICON } = LEARN_MORE_CLASSNAMES;
 
-const learn_more = LERAN_MORE_DATA.map(({ key, image, header, body }) => (
+const learnMore = LERAN_MORE_DATA.map(({ key, image, header, body }) => (
     <div className={BODY} key={key}>
         <div className={IMAGE}>
             <Icon className={ICON} type={image} />
@@ -22,7 +22,7 @@ class LearnMore extends React.Component {
             <div>
                 <div className={HEADER}>
                 </div>
-                {learn_more}
+                {learnMore}
             </div>
         );
     }

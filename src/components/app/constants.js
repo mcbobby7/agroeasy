@@ -132,9 +132,9 @@ export const BANNER_CLASSNAMES = {
     BANNER_COLOR: 'banner_color',
 };
 
-export const VALID_SIGNOUT = "You have been signed out";
-
 export const LINK = "/learn-more";
+
+export const VALID_SIGNOUT = "You have been signed out";
 
 export const SIGNIN_SUCCESS = "Hello";
 
